@@ -2,8 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.kotlin.serialization) // NUOVO
-    alias(libs.plugins.ksp) // NUOVO per Room (KSP invece di kapt)
+    alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.ksp) // per Room
 }
 
 android {
@@ -19,7 +19,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        // NUOVO: Room schema export
+        // Room schema export
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments += mapOf(
@@ -52,7 +52,6 @@ android {
 }
 
 dependencies {
-    // Esistenti
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

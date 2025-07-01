@@ -19,7 +19,6 @@ coroutines = "1.7.3"
 serialization = "1.6.3"
 vico = "1.13.1"
 lottie = "6.1.0"
-dotlottie = "0.5.0"
 ksp = "2.0.0-1.0.21"
 
 [libraries]
