@@ -92,6 +92,9 @@ dependencies {
     // Lottie Animations
     implementation(libs.lottie.compose)
 
+    // Grafici
+    implementation(libs.ycharts)
+
     // Test
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

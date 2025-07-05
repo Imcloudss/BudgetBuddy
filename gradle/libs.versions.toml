@@ -20,6 +20,7 @@ serialization = "1.6.3"
 vico = "1.13.1"
 lottie = "6.1.0"
 ksp = "2.0.0-1.0.21"
+ycharts = "2.1.0"
 
 [libraries]
 # Esistenti
@@ -69,6 +70,7 @@ vico-core = { group = "com.patrykandpatrick.vico", name = "core", version.ref = 
 
 # Lottie Animations
 lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie" }
+ycharts = { module = "co.yml:ycharts", version.ref = "ycharts" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
